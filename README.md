@@ -1,3 +1,9 @@
+# First version
+
+
+The first version is currently only capable of displaying content. More functions will be added in the future.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
