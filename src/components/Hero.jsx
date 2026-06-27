@@ -99,8 +99,8 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-[1700px] mx-auto w-full px-8 py-24 flex flex-col items-center justify-center min-h-screen">
-        <div className="w-full max-w-3xl text-center">
+      <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-8">
+        <div className="w-full max-w-3xl mx-auto text-center">
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -153,7 +153,7 @@ export default function Hero() {
             </button>
             <button
               onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-8 py-3.5 border border-slate-200 hover:border-primary-200 text-slate-600 hover:text-primary-600 font-medium rounded-xl transition-all bg-white/50 backdrop-blur-sm"
+              className="px-10 py-5 text-lg border border-slate-200 hover:border-primary-200 text-slate-600 hover:text-primary-600 font-medium rounded-xl transition-all bg-white/50 backdrop-blur-sm"
             >
               了解更多
             </button>
@@ -178,13 +178,13 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Dashboard preview mockup */}
-        <motion.div
-          initial={{ opacity: 0, y: 60 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.9, duration: 0.8 }}
-          className="mt-20 max-w-5xl mx-auto"
-        >
+          {/* Dashboard preview mockup */}
+          <motion.div
+            initial={{ opacity: 0, y: 60 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.9, duration: 0.8 }}
+            className="mt-16 w-full max-w-5xl"
+          >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-slate-200/50 border border-slate-100">
             {/* Mock dashboard image area */}
             <div className="aspect-[16/7] bg-gradient-to-br from-slate-50 via-white to-primary-50/30 p-6">
