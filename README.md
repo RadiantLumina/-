@@ -1,6 +1,3 @@
-
-Deployment requires installation of environment dependencies. Updates and iterations will be made in the future. Please stay tuned.
-
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
